@@ -1,7 +1,7 @@
 # Bryan Lukehart-Yun
 
 **M.S. Mechanical Engineering, Rochester Institute of Technology (2025)**  
-_Dynamic Systems, Nonlinear SysID, State Estimation & Soft Robotics Actuators_  
+_Dynamic Systems, Nonlinear SysID, State Estimation & Robotics (Soft, Bio-Inspired)_  
 [Email](mailto:bryan.lukehartyun@gmail.com) | [Publications](#publications)
 
 ---
@@ -42,17 +42,15 @@ Features an open-source Python processing stack (10–12× speedup over legacy M
 
 Framework combining nonlinear SysID (NLARX), derivative-free state estimation (UKF), and NMPC trajectory tracking for pneumatic artificial muscles. Treated as a demonstration and **legacy left alone for references**.
 
-### [Applied-Dynamics-and-Controls](https://github.com/BryanLukehartYun/Applied-dynamics-and-controls)
+### [janus.nvim](https://github.com/BryanLukehartYun/janus.nvim)
 
-Dynamics, estimation, and mission design testbeds: 6-DOF nonlinear flight models, quaternion UKF attitude estimation under randomized disturbance noise, and interplanetary trajectory optimization with symbolic $\Delta V$ derivations.
-
-> Problems solving for textbooks questions to stay sharp with aerospace and classical controls problems. -
+First open-source contribution for neovim. I wanted to mimick VS Code's Peacock plugin but couldn't find a easy solutions. My approach was to use the pre-existing Colorschemes both built-in and plugins and tap off that to do something like Peacock's Workspace for when you might have multiple instances / windows open and wanting to differentiate it persistently (and swap on the fly)
 
 ## Publications & Preprints
 
 - **Lukehart-Yun, B.** et al., _"A Large-Scale Time-Series Dataset for McKibben-Style Pneumatic Artificial Muscles and Soft Robotics Research,"_ Data in Brief, 2026. _Under review._. Dataset available on Zenodo @ *doi:10.5281/zenodo.23066619* -- Downloads Count: 240
 - **Lukehart-Yun, B.** and Lamkin-Kennard, K., _"Stable Open-Loop Modelling of McKibben Muscle with Tunable Slider,"_ _In preparation for IEEE Transactions on Robotics (T-RO)_, 2027.
-- **Lukehart-Yun, B.** and Lamkin-Kennard, K., _"[Redacted Title on Soft Robotics]"_ _In preparation for IEEE Robotics and Automation Letters (RA-L)_, 2027.
+- **Lukehart-Yun, B.** and Lamkin-Kennard, K., _"[Redacted Title on Soft Robotics]"_, _In preparation for Soft Robotics_, 2027.
 
 ---
 
@@ -62,3 +60,4 @@ Dynamics, estimation, and mission design testbeds: 6-DOF nonlinear flight models
 - **Lab & DAQ:** High-rate data acquisition, optical/load cell instrumentation, ASTM materials testing, FDM/SLA rapid prototyping
 - **Homelab & Infrastructure:** Tailscale mesh network, self-hosted Forgejo Git server, Linux (CachyOS / Fedora), macOS
 - **Tools:** Neovim / Neovide, orgmode, DOOM Emacs with **EVIL Mode**, VS Code - Jupyter extension (rarely), LaTeX 
+- **AI / LLMs**: Local LLMs with llama.cpp:  Qwen3.5-9B, Gemma Model, Deepseek, and Qwen's 27B family. Agentic LLM: Claude  
